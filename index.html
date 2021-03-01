@@ -7,41 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergaite</title>
     <style>
+        body {
+            background-color: rgb(248, 248, 248);
+        }
         main {
             display: inline-block;
             width: 800px;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(248, 248, 248);
             margin-left: calc((100% - 800px) / 2);
         }
+
         header {
             display: inline-block;
             width: 100%;
             margin-bottom: 40px;
         }
+
+        header > img {
+            display: inline-block;
+            width: 50px;
+            float: left;
+        }
+
+        nav {
+            display: inline-block;  
+            float: right;
+        }
+
+        a {
+            display: inline-block;
+        }
+
         section {
             display: inline-block;
+            width: 100%;
+       }
 
-        }
+       div  {
+           display: inline-block;
+           float: left;
+           width: 35%;
+           margin-left: 5%;
+       }
+
+        section > img {
+            display: inline-block;
+            width: 45%;
+            margin-left: 10%;
+            float: left;
+       }
+       
     </style>
 </head>
 
 <body>
     <main>
-            <header>
-               <img src="Logo.png" alt="Logo">
+        <header>
+               <img src="./Logo.png" alt="Logo">
                <nav>
                    <a href="">Home</a>
                    <a href="">track</a>
                    <a href="">Library</a>
                    <a href="">Community</a>
                    <a href="">Sign in</a>
-            </nav>
-            </header>
+                </nav>
+        </header>
             <section> 
                 <div> <h1> 404</h1>
                     <p>The link is broken or the page has been broken</p> 
-                    <img src="mergaite.png" alt="Mergaite">
-                </div></section>
+                    <img src="./mergaite.png" alt="Mergaite">
+                </div>
+        </section>    
     </main>
 </body>
 </html>
