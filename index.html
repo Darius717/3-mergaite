@@ -9,12 +9,14 @@
     <style>
         body {
             background-color: rgb(248, 248, 248);
+            
         }
         main {
             display: inline-block;
             width: 800px;
-            background-color: rgb(248, 248, 248);
             margin-left: calc((100% - 800px) / 2);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #9D9D9D;
         }
 
         header {
@@ -29,13 +31,14 @@
             float: left;
         }
 
-        nav {
+        header > nav {
             display: inline-block;  
             float: right;
         }
 
         a {
             display: inline-block;
+            color: #9D9D9D;
         }
 
         section {
@@ -43,18 +46,34 @@
             width: 100%;
        }
 
-       div  {
+        div  {
            display: inline-block;
            float: left;
            width: 35%;
            margin-left: 5%;
+           margin-top: 25px;
+          
+          }
+
+       h1 {
+           display: inline-block;
+           width: 100%;
+           font-size: 80px;
+           margin: 0;
+       }
+
+       p {
+           display: inline-block;
+           width: 100%;
+           font-size: 22px;
+           margin: 0%;
        }
 
         section > img {
             display: inline-block;
             width: 45%;
-            margin-left: 10%;
             float: left;
+            margin-left: 10%;
        }
        
     </style>
@@ -73,10 +92,11 @@
                 </nav>
         </header>
             <section> 
-                <div> <h1> 404</h1>
+                <div> 
+                    <h1> 404</h1>
                     <p>The link is broken or the page has been broken</p> 
-                    <img src="./mergaite.png" alt="Mergaite">
                 </div>
+                <img src="./mergaite.png" alt="Mergaite">
         </section>    
     </main>
 </body>
