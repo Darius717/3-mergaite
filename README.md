@@ -19,7 +19,7 @@ Key features
 
 ## Author
 
-Darius [Githug](https://github.com/darius717)
+Darius [Github](https://github.com/darius717)
 
 
 
